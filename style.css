@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background: #964343;
+  color: #160f0f;
+  padding: 20px;
+  line-height:1.6;
+  
+}
+
+article {
+  background-color: #ffdada;
+  padding: 15px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+article:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  transform: translateY(-4px);
+}
+
+
+
+header {
+  text-align: center;
+  border-bottom: 3px solid #252020;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  display:grid;
+}
+
+header h1 {
+  font-size: 5rem;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+header .date {
+  font-style: italic;
+  color: #2b2828;
+}
+
+.title-box {
+  padding: 10px;
+  background-color:#ffdada;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.title-box:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+  transform: translateY(-3px);
+}
+
+.Culture{
+    grid-column: 2;   
+    align-items: center;
+}
+
+main.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 30px;
+}
+
+
+.lead-story {
+  grid-column: span 3;
+  border-bottom: 1px solid #595656;
+  padding-bottom: 15px;
+}
+
+.lead-story h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  border: 1rem;
+  border-radius: 10px;
+}
+
+.byline {
+  font-size: 0.8rem;
+  color: #2f2c2c;
+  margin-bottom: 10px;
+}
+
+.lead-img {
+  width: 100%;
+  margin-left: 4px;
+  margin-right: 4px;
+  height:auto;
+  margin-bottom: 10px;
+  border: 2px solid #0c0c0c;
+}
+
+
+article h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #d5d3d3;
+}
+
+.article-img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+article p {
+  font-size: 1rem;
+  height: auto;
+}
+
+ h2,h3 {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+ h2:hover, h3:hover {
+  color: #934141;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 2px solid #333;
+  text-align:right;
+  font-size: 0.9rem;
+  color: #151515;
+}
